@@ -4,8 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.2/css/dataTables.bootstrap5.min.css">
+    <style type="text/css">
+
+        body {
+            background-color: beige;
+        }
+
+        #Container{
+            width:600px;
+            position: absolute;
+            top: 50%;left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 35px;
+            border-radius: 35px;
+        }
+
+        #TotalBalance > h1:first-child {
+            font-family: sans-serif;
+        }
+
+        #TotalBalance > h1:nth-child(2) {
+            font-family: math;
+        }
+
+        #TablaBalance > tfoot > tr > td,
+        #Titulo {
+            font-weight: bold;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        #TablaBalance > tfoot > tr > td:not(:first-child) > div > span::after,
+        #TablaBalance > tbody > tr > td:not(:first-child)::after,
+        #TotalBalance > h1:nth-child(2)::after {
+            content: ".-"
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Éxito!!!</h1>
+    <div id="Container">
+        <div id="Titulo"><h1>Tabla de Balances</h1></div>
+        <table id="TablaBalance" class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Ingreso</th>
+                    <th>Egreso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Javiera Rojas</td>
+                    <td>$180.000</td>
+                    <td>$75.000</td>
+                </tr>
+                <tr>
+                    <td>Matías Soto</td>
+                    <td>$165.000</td>
+                    <td>$68.000</td>
+                </tr>
+                <tr>
+                    <td>Camila Contreras</td>
+                    <td>$170.000</td>
+                    <td>$72.000</td>
+                </tr>
+                <tr>
+                    <td>Benjamín Silva</td>
+                    <td>$155.000</td>
+                    <td>$65.000</td>
+                </tr>
+                <tr>
+                    <td>Sofía Martínez</td>
+                    <td>$175.800</td>
+                    <td>$71.750</td>
+                </tr>
+                <tr>
+                    <td>Vicente Torres</td>
+                    <td>$160.000</td>
+                    <td>$69.000</td>
+                </tr>
+                <tr>
+                    <td>Isidora Flores</td>
+                    <td>$185.000</td>
+                    <td>$78.000</td>
+                </tr>
+                <tr>
+                    <td>Joaquín Morales</td>
+                    <td>$150.000</td>
+                    <td>$63.000</td>
+                </tr>
+                <tr>
+                    <td>Antonella Núñez</td>
+                    <td>$190.000</td>
+                    <td>$80.000</td>
+                </tr>
+                <tr>
+                    <td>Agustín Romero</td>
+                    <td>$145.000</td>
+                    <td>$55.000</td>
+                </tr> 
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>TOTALES:</td>
+                    <td id="TotalesIncome">$1.675.800</td>
+                    <td id="TotalesOutcome">$696.750</td>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="TotalBalance">
+            <h1>Total balance: </h1>
+            <h1>$979.050</h1>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/2.3.2/js/dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/2.3.2/js/dataTables.bootstrap5.min.js"></script>
+<script type="text/javascript">
+    $('body').ready(function(){
+        Object.assign(DataTable.defaults, {
+            paging: false,
+            info: false,
+        });
+        tabla_balance = new DataTable('#TablaBalance');
+    }
+    )
+</script>
 </body>
 </html>

@@ -37,13 +37,13 @@
             text-align: center;
         }
 
-        #TablaBalance > tfoot > tr > td:not(:first-child) > div > span::after,
+        #TablaBalance > tfoot > tr > td:not(:first-child)::after,
         #TablaBalance > tbody > tr > td:not(:first-child)::after,
         #TotalBalance > h1:nth-child(2)::after {
             content: ".-"
         }
 
-        #TablaBalance > tfoot > tr > td:not(:first-child) > div > span::before,
+        #TablaBalance > tfoot > tr > td:not(:first-child)::before,
         #TablaBalance > tbody > tr > td:not(:first-child)::before,
         #TotalBalance > h1:nth-child(2)::before {
             content: "$"
@@ -69,66 +69,66 @@
             <tbody>
                 <tr>
                     <td>Javiera Rojas</td>
-                    <td>180.000</td>
-                    <td>75.000</td>
+                    <td>180000</td>
+                    <td>75000</td>
                 </tr>
                 <tr>
                     <td>Matías Soto</td>
-                    <td>165.000</td>
-                    <td>68.000</td>
+                    <td>165000</td>
+                    <td>68000</td>
                 </tr>
                 <tr>
                     <td>Camila Contreras</td>
-                    <td>170.000</td>
-                    <td>72.000</td>
+                    <td>170000</td>
+                    <td>72000</td>
                 </tr>
                 <tr>
                     <td>Benjamín Silva</td>
-                    <td>155.000</td>
-                    <td>65.000</td>
+                    <td>155000</td>
+                    <td>65000</td>
                 </tr>
                 <tr>
                     <td>Sofía Martínez</td>
-                    <td>175.800</td>
-                    <td>71.750</td>
+                    <td>175800</td>
+                    <td>71750</td>
                 </tr>
                 <tr>
                     <td>Vicente Torres</td>
-                    <td>160.000</td>
-                    <td>69.000</td>
+                    <td>160000</td>
+                    <td>69000</td>
                 </tr>
                 <tr>
                     <td>Isidora Flores</td>
-                    <td>185.000</td>
-                    <td>78.000</td>
+                    <td>185000</td>
+                    <td>78000</td>
                 </tr>
                 <tr>
                     <td>Joaquín Morales</td>
-                    <td>150.000</td>
-                    <td>63.000</td>
+                    <td>150000</td>
+                    <td>63000</td>
                 </tr>
                 <tr>
                     <td>Antonella Núñez</td>
-                    <td>190.000</td>
-                    <td>80.000</td>
+                    <td>190000</td>
+                    <td>80000</td>
                 </tr>
                 <tr>
                     <td>Agustín Romero</td>
-                    <td>145.000</td>
-                    <td>55.000</td>
+                    <td>145000</td>
+                    <td>55000</td>
                 </tr> 
             </tbody>
             <tfoot>
                 <tr>
                     <td>TOTALES:</td>
-                    <td id="TotalesIncome">1.675.800</td>
-                    <td id="TotalesOutcome">696.750</td>
+                    <td id="TotalesIncome">1675800</td>
+                    <td id="TotalesOutcome">696750</td>
                 </tr>
             </tfoot>
         </table>
         <div id="TotalBalance">
             <h1>Total balance: </h1>
-            <h1>979.050</h1>
+            <h1>979050</h1>
         </div>
     </div>
 <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
@@ -139,27 +139,31 @@
     
     actualizarValores = function() {
         $("#TotalesIncome").text($("#TablaBalance > tbody > tr > td:nth-child(2)")
-            .map(() => parseInt($(this).text()))
+            .map(function(){
+                return parseInt($(this).html())
+            })
             .get()
             .reduce((acc, cur) => acc + cur, 0));
 
         $("#TotalesOutcome").text($("#TablaBalance > tbody > tr > td:nth-child(3)")
-            .map(() => parseInt($(this).text()))
+            .map(function(){
+                return parseInt($(this).html())
+            })
             .get()
             .reduce((acc, cur) => acc + cur, 0));
 
-        $("#TotalBalance").html(
-                parseInt($("#TotalesIncome").text()) +
+        $("#TotalBalance > h1:nth-child(2)").html(
+                parseInt($("#TotalesIncome").text()) -
                 parseInt($("#TotalesOutcome").text()));
     }
 
     formatearNumeros = function(){
-        numeros = $(`#TablaBalance > tfoot > tr > td:not(:first-child) > div > span,
+        numeros = $(`#TablaBalance > tfoot > tr > td:not(:first-child), 
                      #TablaBalance > tbody > tr > td:not(:first-child),
                      #TotalBalance > h1:nth-child(2)`);
 
-        numeros.each(() => {
-            $(this).html(parseInt($(this).text()).toLocaleString('es-CL'));
+        numeros.each(function() {
+            return $(this).html(parseInt($(this).text()).toLocaleString('es-CL'));
         });
     }
     

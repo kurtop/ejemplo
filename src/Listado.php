@@ -6,6 +6,12 @@
 		ini_set("error_log", "./php-error.log");
 
 
+        function quitar_acentos($string) {
+            $string = (string) $string;
+            $string = transliterator_transliterate('Any-Latin; Latin-ASCII;', $string);
+            return $string;
+        }
+
         $data = array(
                     array(
                         'Cliente' => 'Javiera Rojas',
@@ -61,13 +67,26 @@
 
         if (isset($_POST['action']) && $_POST['action'] === 'getData') {
 
-            $_POST['search']['value'] = isset($_POST['search']['value']) ? $_POST['search']['value'] : '';
-            $filtered_data = array_filter($data, function($item) {
-                return strpos(strtolower($item['Cliente']), strtolower($_POST['search']['value'])) !== false;
+            $searchValue = isset($_POST['search']['value']) ? $_POST['search']['value'] : '';
+
+            $filtered_data = array_filter($data, function($item) use ($searchValue){
+                $cliente = isset($item['Cliente']) ? $item['Cliente'] : '';
+                    // Normalizamos ambas cadenas. Se convierte a (string) explícitamente para evitar el warning "Deprecated".
+                    $cliente = $item['Cliente'] ?? '';
+                    $searchValue = $searchValue ?? '';                    
+                    // Quitamos acentos de ambas cadenas para una comparación más robusta.
+                    $nombreClienteSinAcentos = quitar_acentos((string)$cliente);
+                    $valorBusquedaSinAcentos = quitar_acentos((string)$searchValue);
+                    
+                    $haystack = (string) $nombreClienteSinAcentos;
+                    $needle = (string) $valorBusquedaSinAcentos;
+
+                    // Perform the case-insensitive search.
+                    return stripos($haystack, $needle) !== false;
             });
             header('Content-Type: application/json');
             $response = array(
-                'draw'              => intval($_POST['draw']),
+                'draw'              => isset($_POST['draw']) ? intval($_POST['draw']) : 0,
                 'recordsTotal'      => count($data),
                 'recordsFiltered'   => count($filtered_data),
                 'data'              => array_values($filtered_data)

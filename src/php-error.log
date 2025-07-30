@@ -1,0 +1,170 @@
+[30-Jul-2025 15:43:21 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function transliterator_transliterate() in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:10
+Stack trace:
+#0 C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php(71): quitar_acentos('Javiera Rojas')
+#1 [internal function]: {closure:C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:70}(Array)
+#2 C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php(70): array_filter(Array, Object(Closure))
+#3 {main}
+  thrown in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 10
+[30-Jul-2025 15:43:40 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function transliterator_transliterate() in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:10
+Stack trace:
+#0 C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php(71): quitar_acentos('Javiera Rojas')
+#1 [internal function]: {closure:C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:70}(Array)
+#2 C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php(70): array_filter(Array, Object(Closure))
+#3 {main}
+  thrown in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 10
+[30-Jul-2025 15:59:06 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function transliterator_transliterate() in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:10
+Stack trace:
+#0 C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php(71): quitar_acentos('Javiera Rojas')
+#1 [internal function]: {closure:C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:70}(Array)
+#2 C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php(70): array_filter(Array, Object(Closure))
+#3 {main}
+  thrown in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 10
+[30-Jul-2025 16:05:31 America/Santiago] PHP Fatal error:  Uncaught Error: Call to undefined function transliterator_transliterate() in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:10
+Stack trace:
+#0 C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php(71): quitar_acentos('Javiera Rojas')
+#1 [internal function]: {closure:C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:70}(Array)
+#2 C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php(70): array_filter(Array, Object(Closure))
+#3 {main}
+  thrown in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 10
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:08:31 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 89
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 92
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 95
+[30-Jul-2025 16:15:28 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:95) in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 97
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Undefined variable $searchValue in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 93
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:16:51 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php:96) in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 98
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:17:32 America/Santiago] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:18:13 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 96
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
+[30-Jul-2025 16:22:37 America/Santiago] PHP Deprecated:  stripos(): Passing null to parameter #2 ($needle) of type string is deprecated in C:\Apache24\htdocs\ejemplo\ejemplo\src\Listado.php on line 100
